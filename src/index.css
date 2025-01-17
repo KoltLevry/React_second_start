@@ -5,6 +5,7 @@
 body,
 html {
   height: 100%;
+  width: 100%;
   margin: 0;
   padding: 0;
 }
@@ -20,7 +21,33 @@ p {
   padding: 0;
 }
 
-:root {
+#root {
   display: flex;
   min-height: 100%;
+}
+
+#root, .header, .main, .footer {
+  width: 100vw;
+}
+
+.header {
+  background-color: bisque;
+  padding: 20px;
+  text-align: center;
+}
+
+.main {
+  background-color: rgb(225, 237, 249);
+  min-height: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer {
+  background-color: antiquewhite;
+  padding: 10px;
+  text-align: center;
 }
