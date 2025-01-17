@@ -1,0 +1,13 @@
+.lesson_card-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    min-width: 400px;
+    padding: 40px;
+    background-color: lightblue;
+    border: 2px solid darksalmon;
+    border-radius: 8px;
+    font-size: 28px;
+}
