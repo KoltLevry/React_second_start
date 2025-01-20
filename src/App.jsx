@@ -1,4 +1,4 @@
-import { BrowserRouter as Router } from "react-router-dom";
+// import { BrowserRouter as Router } from "react-router-dom";
 
 import Header from './components/Header/Header';
 import SideBar from './components/SideBar/SideBar';
@@ -9,7 +9,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    // <Router>
       <div className="app">
         <Header />
         <div className='container'>
@@ -18,7 +18,7 @@ function App() {
         </div>
         <Footer />
       </div>
-    </Router>
+    // </Router>
   );
 }
 

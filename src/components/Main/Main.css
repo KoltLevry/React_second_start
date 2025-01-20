@@ -1,0 +1,13 @@
+.main {
+    /* background-color: rgb(225, 237, 249); */
+    /* background-color: rgb(225, 237, 249); */
+    /* background-color: rgb(228, 255, 224); */
+    /* background-color: lightgray; */
+    border: 2px solid bisque;
+    border: 2px solid lightblue;
+    border: 2px solid lightgray;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}

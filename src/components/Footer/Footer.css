@@ -1,0 +1,14 @@
+.footer {
+  padding: 5px;
+  text-align: center;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.856);
+  color: darkblue;
+  color: darkslateblue;
+  background-color: antiquewhite;
+  background-color: rgb(178, 241, 215);
+  background: linear-gradient(to right, lightblue, lightyellow, lightpink);
+  background: linear-gradient(to left, lightblue, lightyellow, lightgreen);
+  /* border: 1cqmax solid rgba(135, 206, 250, 0.425); */
+  border: 2px solid rgba(135, 206, 250, 0.425);
+}
