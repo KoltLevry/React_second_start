@@ -1,21 +1,24 @@
-import "./App.css";
-// import "./components/Button/styles.css";
-import Xapp from './components/x_try_react/Xapp'; // Імпортуємо компонент
-// import  mButton from './components/Button/Button'; 
-// import MyButton from './components/Button/Button'; 
-import Lesson_02 from './lessons/Lesson_02/Lesson_02'; 
-import LessonCard from '././components/LessonCard/LessonCard';
-import { logMessage } from "./components/loghelper/Loghelper";
+import { BrowserRouter as Router } from "react-router-dom";
+
+import Header from './components/Header/Header';
+import SideBar from './components/SideBar/SideBar';
+import Main from './components/Main/Main';
+import Footer from './components/Footer/Footer';
+
+import './App.css';
 
 function App() {
-  logMessage(); // Викликаємо утилітну функцію
   return (
-    <div className="app">
-      <h1>Hello, React</h1>
-      <Xapp />  
-      <Lesson_02 />
-      <LessonCard />
-    </div>
+    <Router>
+      <div className="app">
+        <Header />
+        <div className='container'>
+          <SideBar />
+          <Main />
+        </div>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
