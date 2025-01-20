@@ -1,14 +1,20 @@
 // import { Routes, Route } from "react-router-dom";
 // import Lesson_02 from "../lessons/Lesson_02/Lesson_02";
 import './Main.css';
+import { useState } from "react";
 
-function Main() {
+function Main(props) {
+
+    const [ clickCount, setClickCount ] = useState(0);
+
     return(
         <main className='main'>
-            {/* <Routes> */}
-                {/* <Route path="/lesson-02" element={<Lesson_02 />} /> */}
-            {/* </Routes> */}
-            <div>Hi</div>
+            <p>Hi! Welcome!</p>
+            <p>Current count: {clickCount}</p>
+            <button onClick={() => setClickCount(clickCount + 1)}>
+                Increment
+            </button>
+            <div>How / Who are you? - {props.text}</div>
         </main>
     );
 }

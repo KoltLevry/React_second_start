@@ -14,7 +14,7 @@ function App() {
         <Header />
         <div className='container'>
           <SideBar />
-          <Main />
+          <Main text="Smth good"/>
         </div>
         <Footer />
       </div>
