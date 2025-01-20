@@ -1,4 +1,4 @@
-import Button from '../Button/Button';
+// import Button from '../Button/Button';
 import "./styles.css";
 
 import {lessonData} from './data';
@@ -9,11 +9,12 @@ function LessonCard() {
 
     return (
         <div className="lesson_card-wrapper">
-            <img src={lessonData.lesson_img} />
+            {/* <img src={lessonData.lesson_img} />
             <h1>LessonCard {lessonData.lesson_number} </h1>
             <div>Theme: {lessonData.topic}</div>
-            <div>{lessonData.teacher_name}: Teacher</div>
-            <Button />
+            <div>{lessonData.teacher_name}: Teacher</div> */}
+            {/* <Button /> */}
+            <div>hi</div>
         </div>
     )
 }
