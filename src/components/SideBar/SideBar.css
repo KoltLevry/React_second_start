@@ -1,4 +1,3 @@
-/* SideBar.css */
 .sidebar {
     display: flex;
     flex-direction: column;
@@ -18,20 +17,6 @@
 .sidebar h4 {
     text-align: center;
     color: darkblue;
-}
-
-.sidebar-arrow {
-    margin: 6px auto;
-    animation: arrowUpAndDown 1.2s ease-in-out infinite alternate;
-}
-
-@keyframes arrowUpAndDown {
-    0% {
-        transform: translateY(-6px);
-    }
-    100% {
-        transform: translateY(8px);
-    }
 }
 
 .tab-buttons {
