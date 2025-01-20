@@ -5,8 +5,8 @@ import { useState } from 'react';
 function SideBar() {
     const [activeTab, setActiveTab] = useState('lessons');
 
-    const lessons = Array.from({ length: 20 }, (_, i) => `Lesson ${i + 2}`);
-    const homeworks = Array.from({ length: 20 }, (_, i) => `Homework ${i + 2}`);
+    const lessons = Array.from({ length: 19 }, (_, i) => `Lesson ${i + 2}`);
+    const homeworks = Array.from({ length: 19 }, (_, i) => `Homework ${i + 2}`);
 
     return (
         <aside className="sidebar">
